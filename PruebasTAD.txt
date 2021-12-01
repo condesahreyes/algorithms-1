@@ -1,0 +1,180 @@
+-!-Ini::PRUEBAS LISTA POS
+5 4
+
+-!-0::0-?-?-Imprimo la lista luego de agregar 2 datos al principio
+5 4 2 1
+
+-!-1::0-?-?-Imprimo la lista luego de agregar 2 datos al final
+5 4 3 2 1
+
+-!-2::0-?-?-Imprimo la lista luego de agregar el dato 3 en la posicion 2
+5
+
+-!-3::0-?-?-Imprimo el largo de la lista
+Resultado Original: 
+5 4 3 2 1
+
+Resultado Clon: 
+5 4 3 2 1
+
+-!-4::0-?-?-Imprimo el la lista original y su clon
+[]
+
+-!-5::0-?-?-Imprimo luego de crearvacia
+[5 4 3 2 1]
+
+-!-6::0-?-?-Imprimo luego de =
+La lista original es igual a la lista clon
+
+
+
+-!-7::0-?-?-Imprimo prueba de == sobre listas iguales
+La lista original no es igual a la lista clon
+
+
+Resultado Original: 
+5 4 3 2 1
+
+Resultado Clon: 
+4 3 2 1
+
+-!-8::0-?-?-Imprimo prueba de == sobre listas distintas
+Resultado Clon: 
+5 4 3 2 1
+
+-!-9::0-?-?-Imprimo clon luego de asignarle l
+5
+
+-!-10::0-?-?-Imprimo el principio de la lista
+1
+
+-!-11::0-?-?-Imprimo el fin de la lista
+2
+
+-!-12::0-?-?-Imprimo el elemento de la cuarta posicion
+4 3 2 1
+
+-!-13::0-?-?-Imprimo la lista luego de eliminar el principio
+4 3 2
+
+-!-14::0-?-?-Imprimo la lista luego de eliminar el fin
+4 3
+
+-!-15::0-?-?-Imprimo la lista luego de eliminar el tercer elemento
+4
+
+-!-16::0-?-?-Imprimo la lista luego de eliminar el elemento 3
+0
+
+-!-17::0-?-?-Imprimo la posicion del elemento 4
+Elemento 4 pertenece  a la lista
+
+
+
+-!-18::0-?-?-Imprimo si el elemento 4 existe en la lista
+Elemento 6 no pertenece a la lista
+
+
+
+-!-19::0-?-?-Imprimo si el elemento 6 existe en la lista
+La lista no se encuentra vacia
+
+
+
+-!-20::0-?-?-Imprimo si la lista se encuentra vacia
+[]
+
+
+
+-!-21::0-?-?-Imprimo la lista luego de vaciarla
+La lista se encuentra vacia
+
+
+
+-!-22::0-?-?-Imprimo si la lista se encuentra vacia 
+-!-Fin::PRUEBAS LISTA POS
+-!-Ini::PRUEBAS LISTA ORD
+1 1 2 3 3 4 5 6 6
+
+-!-23::0-?-?-Imprimo la lista luego de agregar 9 datos
+9
+
+-!-24::0-?-?-Imprimo el largo de la lista
+Resultado Original: 
+1 1 2 3 3 4 5 6 6
+
+Resultado Clon: 
+1 1 2 3 3 4 5 6 6
+
+-!-25::0-?-?-Imprimo la lista original y su clon
+Resultado Original: 
+1 1 2 3 3 4 5 6 6
+
+Resultado lista obtenida operador =: 
+1 1 2 3 3 4 5 6 6
+
+-!-26::0-?-?-Imprimo la lista original y la obtenida
+La lista original es igual a la lista clon
+
+
+
+-!-27::0-?-?-Imprimo prueba de == sobre listas iguales
+La lista original no es igual a la lista clon
+
+
+
+-!-28::0-?-?-Imprimo prueba de == sobre listas distintas
+1
+
+-!-29::0-?-?-Imprimo el principio de la lista
+6
+
+-!-30::0-?-?-Imprimo el fin de la lista
+1 2 3 3 4 5 6 6
+
+-!-31::0-?-?-Imprimo la lista luego de eliminar el principio
+1 2 3 3 4 5 6
+
+-!-32::0-?-?-Imprimo la lista luego de eliminar el fin
+1 2 3 4 5 6
+
+-!-33::0-?-?-Imprimo la lista luego de eliminar el elemento 3
+2
+
+-!-34::0-?-?-Imprimo la recuperacion del elemento 2
+Elemento 2 pertenece  a la lista
+
+
+
+-!-35::0-?-?-Imprimo si el elemento 2 existe en la lista
+Elemento 6 pertenece  a la lista
+
+
+
+-!-36::0-?-?-Imprimo si el elemento 6 existe en la lista
+La lista no se encuentra vacia
+
+
+
+-!-37::0-?-?-Imprimo si la lista es vacia
+La lista se encuentra vacia
+
+
+
+-!-38::0-?-?-Imprimo si la lista creada es vacia 
+La lista no se encuentra llena
+
+
+
+-!-39::0-?-?-Imprimo si la lista esta llena
+[]
+
+
+
+-!-40::0-?-?-Imprimo la lista luego de vaciarla
+La lista se encuentra vacia
+
+
+
+-!-41::0-?-?-Imprimo si la lista es vacia
+-!-Fin::PRUEBAS LISTA ORD
